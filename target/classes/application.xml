@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="Jenson" class="ustbatchno3.di_setterinjection.Roles">
+		<property name="character_name" value="Jenson"></property>
+		<property name="responsibility" value="son"></property>
+		
+	</bean>
+	    <bean id="Jen" class="ustbatchno3.di_setterinjection.Roles">
+		<property name="character_name" value="Jenson"></property>
+		<property name="responsibility" value="Father"></property>
+		
+	</bean>
+    <bean id="Jens" class="ustbatchno3.di_setterinjection.Roles">
+		<property name="character_name" value="Jenson"></property>
+		<property name="responsibility" value="Brother"></property>
+		
+	</bean>
+	 <bean id="J" class="ustbatchno3.di_setterinjection.Roles">
+		<property name="character_name" value="Jenson"></property>
+		<property name="responsibility" value="Brother-in-law"></property>
+		
+	</bean>
+
+</beans>
